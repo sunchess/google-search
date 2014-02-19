@@ -1,4 +1,3 @@
-
 module Google
   class Search
     
@@ -182,7 +181,8 @@ module Google
     
     def self.size_for sym
       { :small => 4,
-        :large => 8 }[sym]
+        :large => 8,
+        :ten => 10 }[sym]
     end
     
     #:nodoc:
